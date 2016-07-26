@@ -12,6 +12,8 @@
  */
 
 import React from 'react';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import NavigationMenu from '../../components/NavigationMenu';
 
 import styles from './styles.css';
 
@@ -23,9 +25,16 @@ export default class App extends React.Component { // eslint-disable-line react/
 
   render() {
     return (
-      <div className={styles.container}>
-        {this.props.children}
-      </div>
+      <MuiThemeProvider>
+        <div>
+          <NavigationMenu />
+          <div>
+            <div className={styles.container}>
+              {this.props.children}
+            </div>
+          </div>
+        </div>
+      </MuiThemeProvider>
     );
   }
 }
