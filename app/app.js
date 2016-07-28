@@ -25,6 +25,7 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 // Import the CSS reset, which HtmlWebpackPlugin transfers to the build folder
 // import 'sanitize.css/sanitize.css';
 
+
 injectTapEventPlugin();
 
 // Create redux store with history

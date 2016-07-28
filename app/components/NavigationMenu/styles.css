@@ -1,3 +1,38 @@
 .navigationMenu { /* stylelint-ignore */
+	background-color: #FFFFFF;
+	color: #4C4C4C;
+	padding:0px;
+  padding-top: 60px;
+	font-size: 15px;
+  line-height: 2.8em;
+  list-style: none;
+  min-width: 220px;
+	text-decoration: none;
+  position: fixed;
+  margin-bottom: 0px;
+  height: 100%;
+}
 
+.navigationMenu a{ /* stylelint-ignore */
+	color: #4C4C4C;
+	text-decoration: none;
+}
+
+.navigationMenu li { 
+  width: 100%;
+  padding-left:20px;
+  cursor: pointer;
+}
+
+.navigationMenu li:hover { 
+  background-color: #eee;
+}
+
+.navigationMenu a:hover { 
+  background-color: #eee;
+  text-decoration: none;
+}
+
+.MenuItem { 
+  margin-left: 15px;
 }

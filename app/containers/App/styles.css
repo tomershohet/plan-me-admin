@@ -4,6 +4,47 @@
  * App container styles
  */
 
+ body {
+	background: #edecec;
+	font-family: RobotoDraft,Roboto,sans-serif;
+	-webkit-font-smoothing: antialiased;
+ }
+ 
 .container {
   display: block;
+  padding: 12px;
+}
+
+.navClosed {
+	margin-left:0px;
+}
+
+.navOpen {
+	margin-left:180px;
+}
+
+.OldAppBar {
+	height:49px;
+	margin-top: 0px;
+	background-color: #2196F3;
+	color: #ffffff;
+}
+
+.AppBar {
+	background-color: #2196F3;
+	color: #ffffff;
+}
+
+
+.AppBarMenu {
+	color: #ffffff;	
+	fill: #fff;
+	background-color: #fff;
+}
+
+.AppBarLogo {
+	background: url(/logo70.png) no-repeat;
+  background-size: cover;
+  width:150px;
+  height:150px;
 }
