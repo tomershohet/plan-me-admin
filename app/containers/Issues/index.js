@@ -33,14 +33,14 @@ export class Issues extends React.Component { // eslint-disable-line react/prefe
               <Row><Col md={7}><h4>Project Issues</h4></Col></Row>
 
               <Row>
-                <Issue title="Bar door won't close" img="http://localhost:14608/styles/img/demo/issues/bar.jpg" pr="1" size="2" category="Category" description="Fix the good damm thing"/>
-                <Issue title="Floor are too shainy" img="http://localhost:14608/styles/img/demo/issues/floor.jpg" pr="1" size="2" category="Category" description="Fix the good damm thing"/>
-                <Issue title="Microwave oven place missing" img="http://localhost:14608/styles/img/demo/issues/kitchen.jpg" pr="1" size="2" category="Category" description="Fix the good damm thing"/>
-                <Issue title="Missing lights on main kitchen" img="http://localhost:14608/styles/img/demo/issues/kitchen_2.jpg" pr="2" size="2" category="Category" description="Fix the good damm thing"/>
-                <Issue title="TV Cable have no wall track" img="http://localhost:14608/styles/img/demo/issues/living_room.jpg" pr="2" size="2" category="Category" description="Fix the good damm thing"/>
-                <Issue title="Safty alaram camera is missing from playroom" img="http://localhost:14608/styles/img/demo/issues/playroom.jpg" pr="2" size="2" category="Category" description="Fix the good damm thing"/>
-                <Issue title="Stairs railing is loose" img="http://localhost:14608/styles/img/demo/issues/staris.jpg" pr="2" size="2" category="Category" description="Fix the good damm thing"/>
-                <Issue title="Toilet won't flash well" img="http://localhost:14608/styles/img/demo/issues/bathroom.jpg" pr="2" size="2" category="Category" description="Fix the good damm thing"/>
+                <Issue title="Bar door won't close" img="http://localhost:14608/styles/img/demo/issues/bar.jpg" pr="1" size="2" category="Category" description="Fix the god damm thing"/>
+                <Issue title="Floor are too shainy" img="http://localhost:14608/styles/img/demo/issues/floor.jpg" pr="1" size="2" category="Category" description="Fix the god damm thing"/>
+                <Issue title="Microwave oven place missing" img="http://localhost:14608/styles/img/demo/issues/kitchen.jpg" pr="1" size="2" category="Category" description="Fix the god damm thing"/>
+                <Issue title="Missing lights on main kitchen" img="http://localhost:14608/styles/img/demo/issues/kitchen_2.jpg" pr="2" size="2" category="Category" description="Fix the god damm thing"/>
+                <Issue title="TV Cable have no wall track" img="http://localhost:14608/styles/img/demo/issues/living_room.jpg" pr="2" size="2" category="Category" description="Fix the god damm thing"/>
+                <Issue title="Safty alaram camera is missing from playroom" img="http://localhost:14608/styles/img/demo/issues/playroom.jpg" pr="2" size="2" category="Category" description="Fix the god damm thing"/>
+                <Issue title="Stairs railing is loose" img="http://localhost:14608/styles/img/demo/issues/staris.jpg" pr="2" size="2" category="Category" description="Fix the god damm thing"/>
+                <Issue title="Toilet won't flash well" img="http://localhost:14608/styles/img/demo/issues/bathroom.jpg" pr="2" size="2" category="Category" description="Fix the god damm thing"/>
                 
               </Row>
             </Col>
